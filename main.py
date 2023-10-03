@@ -110,5 +110,5 @@ class AddressBook(UserDict):
             yield records[i:i + N]
 
 
-if Name == "main":
+if __name__ == "__main__":
     address_book = AddressBook()
